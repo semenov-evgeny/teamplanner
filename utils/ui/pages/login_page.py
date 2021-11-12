@@ -31,7 +31,7 @@ class LoginPage(BasePage):
     def click_password_form(self):
         password_form = self.browser.find_element(*LoginPageLocators.LOGIN_LINK_PASSWORD)
         password_form.click()
-        password_form.send_keys("Kikimora1237!")
+        password_form.send_keys("")
 
     def click_submit(self):
         click_submit = self.browser.find_element(*LoginPageLocators.LOGIN_LINK_LOG_IN)
